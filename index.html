@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/564x/6d/1f/9c/6d1f9cf34b2a10d351ee9e7866cc4f50.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptacion</title>
+</head>
+<body>
+    <div id="body">
+        <article id="encript">
+            <header>
+                <img src="https://i.pinimg.com/originals/3b/7b/c0/3b7bc061da1a0b2ebcb91574ad3b4b34.gif">
+                <h1>Encripta tu mensaje</h1>
+            </header>
+            <section id="areaEncript">
+                <textarea id="txtEncript" placeholder="Ingrese el texto aqui"></textarea>
+            </section>
+            <footer>
+                <input id="btnEncript" type="button" value="Encriptar">
+                <input id="btnDesencript" type="button" value="Desencriptar">
+            </footer>
+        </article>
+        <article id="result">
+            <section id="none">
+                <img src="https://i.pinimg.com/originals/24/37/8d/24378d3680edd2ee5532f19530608fe5.gif">
+                <h1>Ningun mensaje fue encontrado</h1>
+                <h2>Ingresa el texto que deseas encriptar o desencriptar</h2>
+            </section>
+            <section id="something">
+                <textarea id="resultEncript" readonly></textarea>
+                <input id="btnCopy" type="button" value="Copiar">
+            </section>
+        </article>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
